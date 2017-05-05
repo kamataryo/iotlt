@@ -3,4 +3,4 @@ RewriteBase /
 RewriteCond %{REQUEST_URI} !(^/data/)
 RewriteCond %{REQUEST_URI} !\.txt$
 RewriteCond %{REQUEST_URI} !\.mrb$
-RewriteRule /* http://リダイレクト先 [R=301,L]
+RewriteRule /* http://tarosay.github.io/iotlt/ [R=301,L]
